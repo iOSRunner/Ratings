@@ -31,7 +31,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Gestures" id="VbA-w0-GQe"/>
+                    <tabBarItem key="tabBarItem" title="Gestures" image="Gestures" id="VbA-w0-GQe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SyF-Oc-WYm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,7 +68,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="J9E-NV-Mkh" id="xjL-AC-dOj">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -88,7 +88,7 @@
         <scene sceneID="rug-wn-H8c">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YIZ-nR-Wft" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Players" id="xxI-aE-iuX"/>
+                    <tabBarItem key="tabBarItem" title="Players" image="Players" id="xxI-aE-iuX"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="x6q-8q-Xp5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -104,4 +104,8 @@
             <point key="canvasLocation" x="357.60000000000002" y="-501.49925037481262"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Gestures" width="30" height="30"/>
+        <image name="Players" width="30" height="30"/>
+    </resources>
 </document>
