@@ -15,6 +15,7 @@
 		F76FCED21EE7FBCE0019B551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76FCED01EE7FBCE0019B551 /* Main.storyboard */; };
 		F76FCED41EE7FBCE0019B551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76FCED31EE7FBCE0019B551 /* Assets.xcassets */; };
 		F76FCED71EE7FBCE0019B551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76FCED51EE7FBCE0019B551 /* LaunchScreen.storyboard */; };
+		F7C1E65F1EEA9586009B2B25 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C1E65E1EEA9586009B2B25 /* PlayerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F76FCED31EE7FBCE0019B551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F76FCED61EE7FBCE0019B551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F76FCED81EE7FBCE0019B551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C1E65E1EEA9586009B2B25 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F76FCECC1EE7FBCE0019B551 /* AppDelegate.swift */,
 				F76FCECE1EE7FBCE0019B551 /* ViewController.swift */,
 				F76FCED01EE7FBCE0019B551 /* Main.storyboard */,
+				F7C1E65E1EEA9586009B2B25 /* PlayerCell.swift */,
 				F76FCED31EE7FBCE0019B551 /* Assets.xcassets */,
 				F76FCED51EE7FBCE0019B551 /* LaunchScreen.storyboard */,
 				F76FCED81EE7FBCE0019B551 /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C1E65F1EEA9586009B2B25 /* PlayerCell.swift in Sources */,
 				F733D67D1EE93345001BA5CD /* Player.swift in Sources */,
 				F76FCECF1EE7FBCE0019B551 /* ViewController.swift in Sources */,
 				F76FCECD1EE7FBCE0019B551 /* AppDelegate.swift in Sources */,
