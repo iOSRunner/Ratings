@@ -1,17 +1,14 @@
 //
-//  PlayersViewController.swift
+//  PlayerDetailsViewController.swift
 //  Ratings
 //
-//  Created by Wanlei on 2017/6/8.
+//  Created by Wanlei on 2017/6/15.
 //  Copyright © 2017年 organizer. All rights reserved.
 //
 
 import UIKit
 
-class PlayersViewController: UITableViewController {
-    
-    var players:[Player] = playersData
-    
+class PlayerDetailsViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,39 +29,23 @@ class PlayersViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 0
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return players.count
+        return 0
     }
 
-    
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "PlayerCell", for: indexPath) as! PlayerCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
         // Configure the cell...
 
-        let player = players[indexPath.row] as Player
-        
-        cell.player = player
-        
-        
         return cell
-        
     }
-    
-    
-    
-    @IBAction func cancelToPlayersViewController(segue:UIStoryboardSegue) {
-    }
-    
-    @IBAction func savePlayerDetail(segue:UIStoryboardSegue) {
-    }
-    
-    
-    
+    */
 
     /*
     // Override to support conditional editing of the table view.

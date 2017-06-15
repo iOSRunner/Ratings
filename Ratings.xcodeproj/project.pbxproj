@@ -16,6 +16,7 @@
 		F76FCED41EE7FBCE0019B551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76FCED31EE7FBCE0019B551 /* Assets.xcassets */; };
 		F76FCED71EE7FBCE0019B551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76FCED51EE7FBCE0019B551 /* LaunchScreen.storyboard */; };
 		F7C1E65F1EEA9586009B2B25 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C1E65E1EEA9586009B2B25 /* PlayerCell.swift */; };
+		F7C51D671EF27C680091A2DD /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C51D661EF27C680091A2DD /* PlayerDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F76FCED61EE7FBCE0019B551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F76FCED81EE7FBCE0019B551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7C1E65E1EEA9586009B2B25 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		F7C51D661EF27C680091A2DD /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				F76FCED51EE7FBCE0019B551 /* LaunchScreen.storyboard */,
 				F76FCED81EE7FBCE0019B551 /* Info.plist */,
 				F733D67A1EE9325F001BA5CD /* PlayersViewController.swift */,
+				F7C51D661EF27C680091A2DD /* PlayerDetailsViewController.swift */,
 				F733D67C1EE93345001BA5CD /* Player.swift */,
 				F733D67E1EE93404001BA5CD /* SampleData.swift */,
 			);
@@ -152,6 +155,7 @@
 				F7C1E65F1EEA9586009B2B25 /* PlayerCell.swift in Sources */,
 				F733D67D1EE93345001BA5CD /* Player.swift in Sources */,
 				F76FCECF1EE7FBCE0019B551 /* ViewController.swift in Sources */,
+				F7C51D671EF27C680091A2DD /* PlayerDetailsViewController.swift in Sources */,
 				F76FCECD1EE7FBCE0019B551 /* AppDelegate.swift in Sources */,
 				F733D67F1EE93404001BA5CD /* SampleData.swift in Sources */,
 				F733D67B1EE9325F001BA5CD /* PlayersViewController.swift in Sources */,
